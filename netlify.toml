@@ -2,7 +2,7 @@
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   branches = ['main', 'develop', 'feat/add-algolia']
-  disabled = true
+  disabled = false
   pathPrefix = "/blog"
   customDomain = "Mengoding.com"
-  renderJavaScript = true
+  renderJavaScript = false
